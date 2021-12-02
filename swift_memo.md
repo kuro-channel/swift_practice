@@ -41,3 +41,19 @@ let priceOfApple  = 100 // 推奨
 let price_of_apple = 100 // 非推奨
 ````
 
+## if文
+- 条件式の()は省略可 書かないのが一般的
+```swift
+let age = 16
+var ticketAmmount = 0
+
+if age >= 15 {
+  ticketAmmount = 1500
+} else if age >= 6{
+  ticketAmmount = 1000
+} else {
+  ticketAmmount = 500
+}
+```
+
+## データ型
